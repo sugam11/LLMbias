@@ -13,4 +13,8 @@
 ### Configuration
 1. 1. REWARD_MODE = "REWARD_MODEL" or "REWARD_TOXICITY". The code can be executed using either a reward model or unitary toxic function to evaluate flan-t5 model generated outputs for toxicity
 2. 2. REWARD_MODEL_NAME and REWARD_TOKENIZER_NAME. Either use OpenAssistant/reward-model-deberta-v3-large-v2 or sugam11/gpt2-rlhf-reward reward model for RLHF training
-3. 
+
+
+### Reports
+Reports and evaluation output are reported to Weights & biasess. Some example runs:
+1. https://wandb.ai/devavratj/trlx_anthropic_2500: RLHF training of Anthropic/hh-rlhf using google/flan-t5-base model. TrainSize = 2500, TestSize=500
