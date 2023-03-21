@@ -6,7 +6,7 @@
 3. Huggingface transformers and datasets
 
 ### Insallation
-1. Install CarperAI/trlx libary by following installation instructions mentioned here: https://github.com/CarperAI/trlx
+1. Install CarperAI/trlx libary by following installation instructions mentioned herein: https://github.com/CarperAI/trlx
 2. Execute ppo_anthropic.py for RLHF training of Anthropic/hh-rlhf using google/flan-t5-base model. 
 3. Execute ppo_real_toxicity.py for RLHF training of allenai/real-toxicity-prompts using google/flan-t5-base model. 
 
