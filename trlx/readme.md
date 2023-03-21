@@ -8,7 +8,7 @@
 ### Insallation
 1. Install CarperAI/trlx libary by following installation instructions mentioned herein: https://github.com/CarperAI/trlx
 2. Execute ppo_anthropic.py for RLHF training of Anthropic/hh-rlhf using google/flan-t5-base model. 
-3. Execute ppo_real_toxicity.py for RLHF training of allenai/real-toxicity-prompts using google/flan-t5-base model. 
+3. Execute ppo_realtoxicity.py for RLHF training of allenai/real-toxicity-prompts using google/flan-t5-base model. 
 
 ### Configuration
 1. REWARD_MODE = "REWARD_MODEL" or "REWARD_TOXICITY". The code can be executed using either a reward model or unitary toxic function to evaluate flan-t5 model generated outputs for toxicity
