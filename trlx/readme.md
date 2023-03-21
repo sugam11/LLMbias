@@ -11,8 +11,9 @@
 3. Execute ppo_real_toxicity.py for RLHF training of allenai/real-toxicity-prompts using google/flan-t5-base model. 
 
 ### Configuration
-1. 1. REWARD_MODE = "REWARD_MODEL" or "REWARD_TOXICITY". The code can be executed using either a reward model or unitary toxic function to evaluate flan-t5 model generated outputs for toxicity
-2. 2. REWARD_MODEL_NAME and REWARD_TOKENIZER_NAME. Either use OpenAssistant/reward-model-deberta-v3-large-v2 or sugam11/gpt2-rlhf-reward reward model for RLHF training
+1. REWARD_MODE = "REWARD_MODEL" or "REWARD_TOXICITY". The code can be executed using either a reward model or unitary toxic function to evaluate flan-t5 model generated outputs for toxicity
+2. REWARD_MODEL_NAME and REWARD_TOKENIZER_NAME. This is applicable to only ppo_anthropic.py file. Either use OpenAssistant/reward-model-deberta-v3-large-v2 or sugam11/gpt2-rlhf-reward reward model for RLHF training
+3. During first execution, the code will prompt to enter wandb token for logging to Weights & Biases
 
 
 ### Reports
