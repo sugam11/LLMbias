@@ -17,5 +17,5 @@ During first execution, the code will prompt to enter wandb token for logging to
 
 ### Reports
 Reports and evaluation output are reported to Weights & biasess. Some example runs:
-1. https://wandb.ai/devavratj/trlx_anthropic_2500: RLHF training of Anthropic/hh-rlhf using google/flan-t5-base model. TrainSize = 2500, TestSize=500
-2. TODO: mention wandb url for realtoxicity
+1. https://wandb.ai/devavratj/trlx_anthropic_2500 - RLHF training of Anthropic/hh-rlhf using google/flan-t5-base model. TrainSize = 2500, TestSize=500
+2. https://wandb.ai/devavratj/trlx_realtoxicity_2500 - RLHF training of allenai/real-toxicity-prompts using google/flan-t5-base model. TrainSize = 2500, TestSize=500
