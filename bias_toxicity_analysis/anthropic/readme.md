@@ -14,11 +14,7 @@ Execute python files in following order:
 3. Execute 'bias_toxicity_anthropic_race_plot.py' in terminal console (bias_toxicity_anthropic_race_plot.py). This will load the train and test csv files created in step 2 and plot sub-category race distribution for chosen and rejected Assistant Text.
 
 #### Race Distribution Plots
-
-##### Train Dataset
 ![chosen_response_toxic_bias_distribution_subcategory_train](https://user-images.githubusercontent.com/50883840/226833167-a65692ff-e493-4937-8441-7d5fd6555368.jpg)
 ![rejected_response_toxic_bias_distribution_subcategory_train](https://user-images.githubusercontent.com/50883840/226833176-f5e7ce3d-0185-4285-94af-024f7ad04fc9.jpg)
-
-##### Test Dataset
 ![chosen_response_toxic_bias_distribution_subcategory_test](https://user-images.githubusercontent.com/50883840/226833230-6bb6163c-0397-4327-b4e0-0506b0328351.jpg)
 ![rejected_response_toxic_bias_distribution_subcategory_test](https://user-images.githubusercontent.com/50883840/226833239-26adde9c-3933-4dd5-8399-25dd276c5390.jpg)
