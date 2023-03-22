@@ -2,9 +2,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 # Author: DJoshi
-# In[1]:
-
-
 from detoxify import Detoxify
 from datasets import load_dataset
 import pandas as pd
@@ -115,13 +112,3 @@ detoxify_model = Detoxify(MODEL_TYPE, device='cuda')
 dataset = load_dataset("Anthropic/hh-rlhf")
 process(dataset, 'train')
 process(dataset, 'test')
-
-
-
-
-
-# In[ ]:
-
-
-
-
