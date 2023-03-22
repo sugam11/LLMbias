@@ -3,7 +3,7 @@
 """
 Created on Sun Feb 26 11:01:27 2023
 
-@author: ninaadj
+@author: deoj
 """
 
 from datasets import load_dataset
