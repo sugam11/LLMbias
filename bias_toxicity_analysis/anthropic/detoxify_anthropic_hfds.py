@@ -94,7 +94,7 @@ def process(dataset, split):
     ds = dataset[split]
     ds = dataset.map(detoxify, fn_kwargs={'detoxify_model': detoxify_model}, batched=True, batch_size = 50)
 
-    dataset_name = f'detoxify_{model_type}_hhrlhf_'
+    dataset_name = f'detoxify_{MODEL_TYPE}_hhrlhf_'
     if LAST_ASSISTANT == True:
         dataset_name += f'last_assistant'
     else:
