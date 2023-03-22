@@ -14,11 +14,12 @@ Goal is to analyze bias and toxicity of allenai/real-toxicity-prompts dataset. W
 Execute python files in following order:
 1. Execute 'detoxify_realtoxicity_hfds.py' in terminal console (python detoxify_realtoxicity_hfds.py). This will use Unitary Detoxify to evaluate continuation text's toxicity, create train and test csv files and upload the resultant dataset on to [Huggingface repository (Deojoandco/detoxify_unbiased_real_toxicity)]([https://huggingface.co/datasets/Deojoandco/detoxify_unbiased_hhrlhf_last_assistant](https://huggingface.co/datasets/Deojoandco/detoxify_unbiased_real_toxicity)). By default, we will use the 'unbiased' Unitary Detoxify model for evaluating toxicity and can be controlled by setting the flag MODEL_TYPE to 'original' or 'unbiased'.
 2. Execute 'bias_classification_realtoxicity.py' in terminal console (python bias_classification_realtoxicity.py). This will download 'Deojoandco/detoxify_unbiased_real_toxicity' dataset (created in step 1) from Huggingface and classify continuation text with bias categories defined in the 'bias_category_descriptors.json' dictionary file. It will generate real_toxcity_biasmatch.csv output file having bias classification details.
-3. Execute 'bias_toxicity_realtoxicity_race_plot.py' in terminal console (bias_toxicity_realtoxicity_race_plot.py). This will load the train and test csv files created in step 2, calculate regard toxicity for race categories, plot sub-category race distribution for continuation Text and plot race-regard toxicity plot.
+3. Execute 'bias_toxicity_realtoxicity_race_plot.py' in terminal console (bias_toxicity_realtoxicity_race_plot.py). This will load the csv file created in step 2, calculate regard toxicity for race categories, plot sub-category race distribution for continuation Text and plot race-regard toxicity plot.
 
 
 
 ### Race Plots
+![real_toxic_bias_distribution_subcategory](https://user-images.githubusercontent.com/50883840/226857728-23ce9cb7-a199-4755-a1cf-4eef6f118390.jpg)
 ![image](https://user-images.githubusercontent.com/50883840/226848483-fefa51cf-7032-48ef-9bfe-5da3f080452d.png)
 
 
