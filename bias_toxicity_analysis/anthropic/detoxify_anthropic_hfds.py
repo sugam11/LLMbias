@@ -111,7 +111,7 @@ def process(dataset, split):
     ds.push_to_hub(f'dataset_name', token ='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')
 
 
-detoxify_model = Detoxify(model_type, device='cuda')
+detoxify_model = Detoxify(MODEL_TYPE, device='cuda')
 dataset = load_dataset("Anthropic/hh-rlhf")
 process(dataset, 'train')
 process(dataset, 'test')
