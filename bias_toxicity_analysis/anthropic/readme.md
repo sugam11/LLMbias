@@ -30,4 +30,14 @@ Execute python files in following order:
 
 
 ### All Categories and Subcategories Plots
+![chosen_response_toxic_bias_distribution_categories_train](https://user-images.githubusercontent.com/50883840/226870519-ea9f3afd-858f-47f0-9d17-3148e8fbe804.jpg)
+![chosen_response_toxic_bias_distribution_subcategories_train](https://user-images.githubusercontent.com/50883840/226870557-963465b7-6369-4e4a-b24c-c2be00048cd2.jpg)
+![rejected_response_toxic_bias_distribution_categories_train](https://user-images.githubusercontent.com/50883840/226870634-37c99dc8-acf6-4422-bf86-6e58e2277e39.jpg)
+![rejected_response_toxic_bias_distribution_subcategories_train](https://user-images.githubusercontent.com/50883840/226870698-3c78fb90-d9bf-4a38-ba24-2810495d4f05.jpg)
+
+![chosen_response_toxic_bias_distribution_categories_test](https://user-images.githubusercontent.com/50883840/226870772-c006f5a3-8579-4e95-b947-a91ffcaae558.jpg)
+![chosen_response_toxic_bias_distribution_subcategories_test](https://user-images.githubusercontent.com/50883840/226870811-17bb58e7-055d-4eb5-a7eb-3ee773fdc63f.jpg)
+![rejected_response_toxic_bias_distribution_categories_test](https://user-images.githubusercontent.com/50883840/226870870-98298ee5-fcc8-419d-a4c0-1d15b9758e4c.jpg)
+![rejected_response_toxic_bias_distribution_subcategories_test](https://user-images.githubusercontent.com/50883840/226870918-a0f9a4a6-fb8f-4d5c-aea1-7a022cfe2ef9.jpg)
+
 
