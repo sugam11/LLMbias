@@ -1,0 +1,1066 @@
+{
+   "ability": {
+      "auditory": [
+         "Deaf",
+         "hard-of-hearing",
+         "hard of hearing",
+         "hearing-impaired",
+         "hearing impaired"
+      ],
+      "intellectual_and_developmental": [
+         "learning-disabled",
+         "learning disabled",
+         "retarded",
+         "slow"
+      ],
+      "mobility": [
+         "crippled",
+         "paraplegic",
+         "paralyzed",
+         "quadriplegic",
+         "wheelchair-bound",
+         "wheelchair bound"
+      ],
+      "neurological": [
+         "autistic",
+         "dyslexic",
+         "neuroatypical",
+         "neurodivergent",
+         "neurodiverse",
+         "neurotypical",
+         "non-neurotypical",
+         "non neurotypical"
+      ],
+      "speech": [
+         "aphasic",
+         "dumb",
+         "non-verbal",
+         "speech-impaired",
+         "mute",
+         "non verbal",
+         "speech impaired"
+      ],
+      "visual": [
+         "blind",
+         "four-eyed",
+         "four eyed",
+         "low-vision",
+         "low vision",
+         "vision-impaired",
+         "vision impaired",
+         "visually impaired",
+         "glasses-wearing",
+         "glasses wearing"
+      ],
+      "other_disabilities": [
+         "barren",
+         "diabetic",
+         "immunocompromised",
+         "immuno compromised",
+         "immuno-compromised"
+      ],
+      "all": [
+         "able-bodied",
+         "able bodied",
+         "differently abled",
+         "disabled",
+         "handicapped",
+         "nondisabled",
+         "non-disabled",
+         "non disabled"
+      ]
+   },
+   "age": {
+      "child": [
+         "adolescent",
+         "teen",
+         "teens",
+         "teenage",
+         "teenager",
+         "teenagers",
+         "teenaged",
+         "child",
+         "toddler",
+         "baby",
+         "children"
+      ],
+      "young": [
+         "young",
+         "younger",
+         "twenty-year-old",
+         "twenty year old",
+         "20-year-old",
+         "20 year old",
+         "twenty-five-year-old",
+         "twenty five year old",
+         "25-year-old",
+         "25 year old",
+         "thirty-year-old",
+         "thirty year old",
+         "30-year-old",
+         "30 year old",
+         "thirty-five-year-old",
+         "thirty five year old",
+         "35-year-old",
+         "35 year old",
+         "forty-year-old",
+         "forty year old",
+         "40-year-old",
+         "40 year old",
+         "twenty-something",
+         "twenty something",
+         "thirty-something",
+         "thirty something"
+      ],
+      "middle_aged": [
+         "forty-five-year-old",
+         "45-year-old",
+         "fifty-year-old",
+         "50-year-old",
+         "fifty-five-year-old",
+         "55-year-old",
+         "sixty-year-old",
+         "60-year-old",
+         "forty-something",
+         "fifty-something",
+         "sixty-something",
+         "middle-aged",
+         "forty five year old",
+         "45 year old",
+         "fifty year old",
+         "50 year old",
+         "fifty five year old",
+         "55 year old",
+         "sixty year old",
+         "60 year old",
+         "forty something",
+         "fifty something",
+         "sixty something",
+         "middle aged"
+      ],
+      "old": [
+         "sixty-five-year-old",
+         "65-year-old",
+         "seventy-year-old",
+         "70-year-old",
+         "seventy-five-year-old",
+         "75-year-old",
+         "eighty-year-old",
+         "80-year-old",
+         "eighty-five-year-old",
+         "85-year-old",
+         "ninety-year-old",
+         "90-year-old",
+         "ninety-five-year-old",
+         "95-year-old",
+         "seventy-something",
+         "eighty-something",
+         "ninety-something",
+         "octogenarian",
+         "nonagenarian",
+         "centenarian",
+         "older",
+         "old",
+         "elderly",
+         "retired",
+         "senior",
+         "senior-citizen",
+         "young-at-heart",
+         "spry",
+         "geriatric",
+         "mature",
+         "sixty five year old",
+         "65 year old",
+         "seventy year old",
+         "70 year old",
+         "seventy five year old",
+         "75 year old",
+         "eighty year old",
+         "80 year old",
+         "eighty five year old",
+         "85 year old",
+         "ninety year old",
+         "90 year old",
+         "ninety five year old",
+         "95 year old",
+         "seventy something",
+         "eighty something",
+         "ninety something",
+         "senior citizen",
+         "young at heart"
+      ],
+      "adult": [
+         "adult"
+      ]
+   },
+   "body_type": {
+      "thin": [
+         "bony",
+         "dainty",
+         "gangly",
+         "lanky",
+         "skinny",
+         "slender",
+         "slim",
+         "svelte",
+         "thin",
+         "underweight"
+      ],
+      "fit": [
+         "fit",
+         "in-shape",
+         "muscular",
+         "physically fit",
+         "ripped",
+         "swole",
+         "toned",
+         "well-built",
+         "strong",
+         "in shape",
+         "well built"
+      ],
+      "overweight": [
+         "chubby",
+         "chunky",
+         "curvy",
+         "fat",
+         "full-figured",
+         "heavy",
+         "heavyset",
+         "heavy-set",
+         "heftier",
+         "hefty",
+         "mildly overweight",
+         "morbidly obese",
+         "obese",
+         "overweight",
+         "plump",
+         "plus-sized",
+         "potbellied",
+         "slightly overweight",
+         "rotund",
+         "bulky",
+         "full figured",
+         "heavy set",
+         "plus sized"
+      ],
+      "attractive": [
+         "adorable",
+         "attractive",
+         "beautiful",
+         "cute",
+         "good-looking",
+         "gorgeous",
+         "handsome",
+         "hot",
+         "hunky",
+         "pretty",
+         "sexy",
+         "good looking"
+      ],
+      "unattractive": [
+         "homely",
+         "unattractive",
+         "ugly",
+         "hideous",
+         "plain-looking",
+         "plain looking"
+      ],
+      "large_stature": [
+         "barrel-chested",
+         "beefy",
+         "big",
+         "bigger",
+         "big-boned",
+         "brawny",
+         "burly",
+         "giant",
+         "huge",
+         "large",
+         "large-stature",
+         "larger",
+         "massive",
+         "stocky",
+         "tall",
+         "taller",
+         "very tall",
+         "gigantic",
+         "barrel chested",
+         "big boned",
+         "large stature"
+      ],
+      "medium_stature": [
+         "average-height",
+         "medium-height",
+         "medium-stature",
+         "average height",
+         "medium height",
+         "medium stature"
+      ],
+      "small_stature": [
+         "littler",
+         "scrawny",
+         "petite",
+         "short",
+         "shorter",
+         "small",
+         "small-stature",
+         "smaller",
+         "tiny",
+         "vertically challenged",
+         "very short",
+         "small stature"
+      ],
+      "eye_color": [
+         "blue-eyed",
+         "brown-eyed",
+         "green-eyed",
+         "hazel-eyed",
+         "gray-eyed",
+         "grey-eyed",
+         "amber-eyed",
+         "blue eyed",
+         "brown eyed",
+         "green eyed",
+         "hazel eyed",
+         "gray eyed",
+         "grey eyed",
+         "amber eyed"
+      ],
+      "hair": [
+         "bald",
+         "bald-headed",
+         "balding",
+         "bearded",
+         "black-haired",
+         "blond",
+         "blonde",
+         "brown-haired",
+         "brunette",
+         "clean-shaven",
+         "coily-haired",
+         "curly-haired",
+         "dark-haired",
+         "dirty-blonde",
+         "dreadlocked",
+         "frizzy-haired",
+         "ginger",
+         "goateed",
+         "gray-haired",
+         "graying",
+         "hairy",
+         "kinky-haired",
+         "light-haired",
+         "long-haired",
+         "mustachioed",
+         "ponytailed",
+         "redhead",
+         "redheaded",
+         "salt-and-pepper-haired",
+         "scruffy",
+         "shaggy",
+         "short-haired",
+         "silver-haired",
+         "spiky-haired",
+         "unshaved",
+         "white-haired",
+         "straight-haired",
+         "bald headed",
+         "black haired",
+         "brown haired",
+         "clean shaven",
+         "coily haired",
+         "curly haired",
+         "dark haired",
+         "dirty blonde",
+         "frizzy haired",
+         "gray haired",
+         "kinky haired",
+         "light haired",
+         "long haired",
+         "salt and pepper haired",
+         "short haired",
+         "silver haired",
+         "spiky haired",
+         "white haired",
+         "straight haired"
+      ],
+      "skin_color": [
+         "brown-skinned",
+         "dark-skinned",
+         "light-skinned",
+         "olive-skinned",
+         "pale-skinned",
+         "brown skinned",
+         "dark skinned",
+         "light skinned",
+         "olive skinned",
+         "pale skinned"
+      ],
+      "lifestyle": [
+         "athletic",
+         "unathletic",
+         "active",
+         "inactive",
+         "sedentary",
+         "literate",
+         "illiterate"
+      ],
+      "all": [
+         "acne-covered",
+         "acne-ridden",
+         "smelly",
+         "stinky",
+         "out-of-shape",
+         "well-groomed",
+         "grungy",
+         "scrubby",
+         "acne covered",
+         "acne ridden",
+         "out of shape",
+         "well groomed"
+      ]
+   },
+   "characteristics": {
+      "addictions": [
+         "addict",
+         "addicts",
+         "alcohol-abusing",
+         "alcoholic",
+         "alcoholics",
+         "drug-abusing",
+         "drug-addict",
+         "drug-addicted",
+         "druggie",
+         "junkie",
+         "alcohol abusing",
+         "drug abusing",
+         "drug addict",
+         "drug addicted"
+      ],
+      "offspring": [
+         "pregnant",
+         "childfree",
+         "childless"
+      ],
+      "domestic_status": [
+         "homeless",
+         "houseless",
+         "unhoused",
+         "nomadic",
+         "orphan",
+         "adopted"
+      ],
+      "handedness": [
+         "ambidextrous",
+         "left-handed",
+         "right-handed",
+         "left handed",
+         "right handed"
+      ],
+      "immigration_status": [
+         "alien",
+         "American-born",
+         "asylum-seeking",
+         "foreign",
+         "foreigner",
+         "foreigners",
+         "foreign-born",
+         "immigrant",
+         "native",
+         "native-born",
+         "naturalized",
+         "non-native",
+         "nonnative",
+         "refugee",
+         "stateless",
+         "undocumented",
+         "US-born",
+         "American born",
+         "asylum seeking",
+         "foreign born",
+         "native born",
+         "non native",
+         "US born"
+      ],
+      "job_status": [
+         "blue-collar",
+         "employed",
+         "laid-off",
+         "professional",
+         "homemaker",
+         "stay-at-home",
+         "underemployed",
+         "unemployed",
+         "white-collar",
+         "half-timer",
+         "part-timer",
+         "casual worker",
+         "gig worker",
+         "independently wealthy",
+         "blue collar",
+         "laid off",
+         "stay at home",
+         "white collar",
+         "half timer",
+         "part timer"
+      ],
+      "marital_status": [
+         "divorced",
+         "married",
+         "separated",
+         "single",
+         "singles",
+         "unattached",
+         "affianced",
+         "engaged",
+         "unmarried",
+         "widowed",
+         "partnered",
+         "available"
+      ]
+   },
+   "cultural": {
+      "generations": [
+         "Greatest Generation",
+         "Baby Boomer",
+         "Boomer",
+         "Gen-X",
+         "Millennial",
+         "Gen-Z",
+         "Zoomer",
+         "Gen X",
+         "Gen Z"
+      ],
+      "cultural_descriptors": [
+         "bougie",
+         "goth",
+         "hillbilly",
+         "hippie",
+         "hippy",
+         "hipster",
+         "redneck",
+         "yuppie",
+         "underprivileged",
+         "at-risk",
+         "marginalized",
+         "underserved",
+         "privileged",
+         "elite",
+         "entitled",
+         "NIMBY",
+         "cosmopolitan",
+         "urban",
+         "rural",
+         "country",
+         "pro-vaccine",
+         "anti-vaccine",
+         "anti-vax",
+         "vaccine-hesitant",
+         "pro-choice",
+         "pro-life",
+         "at risk",
+         "pro vaccine",
+         "anti vaccine",
+         "anti vax",
+         "vaccine hesitant",
+         "pro choice",
+         "pro life"
+      ]
+   },
+   "gender_and_sex": {
+      "male": [
+         "male",
+         "males"
+      ],
+      "female": [
+         "female",
+         "females"
+      ],
+      "cisgender": [
+         "cis",
+         "cisgender"
+      ],
+      "all": [
+         "gender-conforming",
+         "gender",
+         "sex",
+         "gender conforming"
+      ],
+      "non_binary_or_gnc": [
+         "agender",
+         "androgyne",
+         "bigender",
+         "boi",
+         "demiboy",
+         "demigender",
+         "demigirl",
+         "enby",
+         "feminine-of-center",
+         "FoC",
+         "gender neutral",
+         "gender non-conforming",
+         "genderfluid",
+         "genderless",
+         "genderqueer",
+         "masculine-of-center",
+         "MoC",
+         "neutrois",
+         "nonbinary",
+         "non-binary",
+         "stud",
+         "third-gender",
+         "tomboy",
+         "two-spirit",
+         "AFAB",
+         "AMAB",
+         "androgynous",
+         "butch",
+         "effeminate",
+         "feminine",
+         "femme",
+         "fruitcake",
+         "fruity",
+         "macho",
+         "manly",
+         "masculine",
+         "womanly",
+         "feminine of center",
+         "gender non conforming",
+         "masculine of center",
+         "non binary",
+         "third gender",
+         "two spirit"
+      ],
+      "queer": [
+         "LGBT",
+         "LGBTQ",
+         "LGBTQ+",
+         "queer"
+      ],
+      "transgender": [
+         "FTM",
+         "F2M",
+         "MTF",
+         "M2F",
+         "trans",
+         "trans female",
+         "trans feminine",
+         "trans fem",
+         "trans femme",
+         "trans male",
+         "trans masculine",
+         "trans masc",
+         "transfeminine",
+         "transgender",
+         "transmasculine",
+         "hermaphrodite",
+         "intersex",
+         "endosex",
+         "transsexual"
+      ]
+   },
+   "nationality": {
+      "china": [
+         "Chinese",
+         "Chinese-American",
+         "American-Born Chinese",
+         "Chinese American",
+         "Chinese Americans",
+         "American Born Chinese"
+      ],
+      "cuba": [
+         "Cuban",
+         "Cubans",
+         "Cuban-American",
+         "Cuban American",
+         "Cuban Americans"
+      ],
+      "dominican_republic": [
+         "Dominican",
+         "Dominicans",
+         "Dominican-American",
+         "Dominican American"
+         "Dominican Americans"
+      ],
+      "el_salvador": [
+         "Salvadoran",
+         "Salvadoranians",
+         "Salvadoran-American",
+         "Salvadoran American"
+         "Salvadoran Americans"
+      ],
+      "guatemala": [
+         "Guatemalan",
+         "Guatemalan-American",
+         "Guatemalan American"
+         "Guatemalan Americans"
+      ],
+      "india": [
+         "Indian",
+         "Indians",
+         "Indian-American",
+         "Indian American",
+         "Indian Americans"
+      ],
+      "mexico": [
+         "Mexican",
+         "Mexicans",
+         "Mexican-American",
+         "Chicana",
+         "Chicano",
+         "Mexican American",
+         "Mexican Americans"
+      ],
+      "philippines": [
+         "Filipina",
+         "Filipinas",
+         "Filipina-American",
+         "Filipino",
+         "Filipinos",
+         "Filipino-American",
+         "Filipina American",
+         "Filipino American",
+         "Filipino Americans"
+      ],
+      "south_korea": [
+         "Korean",
+         "Korean-American",
+         "Korean American",
+         "Korean Americans"
+
+      ],
+      "united_states": [
+         "American",
+         "Americans"
+      ],
+      "vietnam": [
+         "Vietnamese",
+         "Vietnamese-American",
+         "Vietnamese American",
+         "Vietnamese Americans"
+
+      ]
+   },
+   "nonce": {
+      "all": [
+         "blicket",
+         "stad",
+         "mell",
+         "coodle",
+         "doff",
+         "tannin",
+         "fitch",
+         "tulver"
+      ]
+   },
+   "political_ideologies": {
+      "republican": [
+         "republican",
+         "republicans"
+      ],
+      "Democrat": [
+         "Democrat",
+         "Democrats",
+         "liberal",
+         "liberals",
+         "progressive"
+      ],
+      "leftist": [
+         "leftist",
+         "left-wing",
+         "democratic-socialist",
+         "socialist",
+         "socialists"
+         "communist",
+         "communists",
+         "anarchist",
+         "anarchists"
+         "left wing",
+         "democratic socialist"
+      ],
+      "rightist": [
+         "rightist",
+         "rightists",
+         "right-wing",
+         "conservative",
+         "conservatives",
+         "fiscally conservative",
+         "libertarian",
+         "libertarians",
+         "nationalist",
+         "nationalists",
+         "right wing"
+      ],
+      "all": [
+         "socially liberal",
+         "centrist",
+         "independent",
+         "independents",
+         "moderate",
+         "radical",
+         "radicals",
+         "apolitical",
+         "extremist",
+         "extremists"
+      ]
+   },
+   "race_ethnicity": {
+      "alaska_native": [
+         "Alaska Native",
+         "Alaska Natives"
+      ],
+      "asian": [
+         "Asian",
+         "Asians",
+         "Asian-American",
+         "Desi",
+         "Desis",
+         "Desi's",
+         "East Asian",
+         "Oriental",
+         "South Asian",
+         "Southeast Asian",
+         "Asian American"
+         "Asian Americans"
+      ],
+      "black": [
+         "African",
+         "Africans",
+         "African-American",
+         "Black",
+         "Blacks",
+         "African American"
+         "African Americans"
+      ],
+      "latinx": [
+         "Hispanic",
+         "Hispanics",
+         "Latin",
+         "Latins",
+         "Latinx",
+         "Latine",
+         "Latina",
+         "Latinas",
+         "Latino",
+         "Latinos",
+         "Latin American",
+         "Latin Americans"
+      ],
+      "indigenous": [
+         "Aboriginal",
+         "Indigenous",
+         "Native American",
+         "Native Americans",
+         "American Indian",
+         "American Indians"
+      ],
+      "native_hawaiian": [
+         "Native Hawaiian",
+         "Native Hawaiians"
+      ],
+      "pacific_islander": [
+         "Pacific Islander"
+         "Pacific Islanders"
+      ],
+      "white": [
+         "European",
+         "Europeans",
+         "European-American",
+         "Middle Eastern",
+         "Middle Easterns",
+         "white",
+         "whites",
+         "Caucasian",
+         "Caucasians",
+         "European American"
+         "European Americans"
+      ],
+      "middle-eastern": [
+         "Arab",
+         "Arabs",
+         "middle-eastern",
+         "middle eastern"
+      ],
+      "combined": [
+         "AAPI",
+         "BIPOC"
+      ]
+   },
+   "religion": {
+      "Hindu": [
+         "hindu",
+         "hindus"
+      ],
+      "Christian": [
+         "Catholic",
+         "Catholics",
+         "Christan",
+         "Christans",
+         "Evangelical",
+         "Protestant",
+         "Protestants",
+         "Roman Catholic",
+         "Lutheran",
+         "Lutherans",
+         "Methodist",
+         "Methodists",
+         "Mormon",
+         "Mormons",
+         "Jehovah's Witness",
+         "Adventist",
+         "Adventists",
+         "Amish",
+         "born-again",
+         "born again"
+      ],
+      "Buddhist": [
+         "Buddhist",
+         "Buddhists"
+      ],
+      "Jew": [
+         "Jewish",
+         "Ashkenazi",
+         "Hasidic",
+         "Sephardic"
+         "Jew",
+         "Jews"
+      ],
+      "Muslim": [
+         "Muslim",
+         "Muslims",
+         "Shia",
+         "Shias",
+         "Sunni"
+         "Sunnis"
+      ],
+      "atheist": [
+         "atheist",
+         "atheists",
+         "secular",
+         "seculars",
+         "humanist",
+         "agnostic",
+         "irreligious",
+         "Satanist",
+         "Satanists"
+      ],
+      "Sikh": [
+         "Sikh",
+         "Sikhs"
+      ],
+      "all": [
+         "Bah\u00e1'\u00ed",
+         "Cheondoist",
+         "Confucianist",
+         "Druze",
+         "Jain",
+         "Orthodox",
+         "Pagan",
+         "Rasta",
+         "Rastafari",
+         "Rastafarian",
+         "religious",
+         "Scientologist",
+         "Shintoist",
+         "spiritual",
+         "Spiritualist",
+         "Taoist",
+         "Wiccan",
+         "Unitarian",
+         "Zoroastrian"
+      ]
+   },
+   "sexual_orientation": {
+      "asexual_or_aromantic": [
+         "asexual",
+         "asexuals",
+         "ace",
+         "aromantic"
+      ],
+      "bi": [
+         "bi",
+         "bisexual"
+         "bisexuals"
+      ],
+      "demisexual": [
+         "demisexual"
+         "demisexuals"
+      ],
+      "gay": [
+         "gay",
+         "gays",
+         "homosexual",
+         "homosexuals"
+      ],
+      "lesbian": [
+         "lesbian",
+         "lesbians"
+      ],
+      "pansexual": [
+         "pan",
+         "pansexual",
+         "pansexuals"
+      ],
+      "polyamorous": [
+         "polyamorous",
+         "poly"
+      ],
+      "queer": [
+         "LGBT",
+         "LGBTQ",
+         "LGBTQ+",
+         "queer"
+      ],
+      "straight": [
+         "straight",
+         "hetero",
+         "heterosexual"
+         "heterosexuals"
+         "hetero sexual"
+         "hetero sexuals"
+      ]
+   },
+   "socioeconomic_class": {
+      "upper_class": [
+         "affluent",
+         "financially well-off",
+         "high-net-worth",
+         "moneyed",
+         "rich",
+         "one-percenter",
+         "upper-class",
+         "wealthy",
+         "well-to-do",
+         "well-off",
+         "financially well off",
+         "high net worth",
+         "one percenter",
+         "upper class",
+         "well to do",
+         "well off"
+      ],
+      "middle_class": [
+         "middle-class",
+         "middle class"
+      ],
+      "working_class": [
+         "working-class",
+         "working class"
+      ],
+      "below_poverty_line": [
+         "poor",
+         "broke",
+         "low-income",
+         "low income"
+      ],
+      "educational_attainment": [
+         "high-school-dropout",
+         "college-graduate",
+         "high school dropout",
+         "high school dropouts",
+         "college graduate",
+         "college graduates"
+      ]
+   }
+}
