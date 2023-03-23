@@ -20,7 +20,7 @@ Execute python files in following order:
 
 
 ### Race Plots
-![real_toxic_bias_distribution_subcategory](https://user-images.githubusercontent.com/50883840/226857728-23ce9cb7-a199-4755-a1cf-4eef6f118390.jpg)
+![real_toxic_bias_distribution_subcategory](https://user-images.githubusercontent.com/50883840/227076247-b5e5b3f4-8267-48f0-b716-39d97aa72d02.jpg)
 ![image](https://user-images.githubusercontent.com/50883840/226848483-fefa51cf-7032-48ef-9bfe-5da3f080452d.png)
 
 ### All Categories and Subcategories plots
