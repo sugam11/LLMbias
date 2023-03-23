@@ -30,14 +30,16 @@ Execute python files in following order:
 
 
 ### All Categories and Subcategories Plots
-![chosen_response_toxic_bias_distribution_categories_train](https://user-images.githubusercontent.com/50883840/226870519-ea9f3afd-858f-47f0-9d17-3148e8fbe804.jpg)
-![chosen_response_toxic_bias_distribution_subcategories_train](https://user-images.githubusercontent.com/50883840/226870557-963465b7-6369-4e4a-b24c-c2be00048cd2.jpg)
-![rejected_response_toxic_bias_distribution_categories_train](https://user-images.githubusercontent.com/50883840/226870634-37c99dc8-acf6-4422-bf86-6e58e2277e39.jpg)
-![rejected_response_toxic_bias_distribution_subcategories_train](https://user-images.githubusercontent.com/50883840/226870698-3c78fb90-d9bf-4a38-ba24-2810495d4f05.jpg)
+![chosen_response_toxic_bias_distribution_categories_train](https://user-images.githubusercontent.com/50883840/227072427-c54512bb-e2f0-450b-8a1a-2ec8d7238a95.jpg)
+![chosen_response_toxic_bias_distribution_subcategories_train](https://user-images.githubusercontent.com/50883840/227072449-5a2ea9f2-b978-401f-9605-951059a873b3.jpg)
+![rejected_response_toxic_bias_distribution_categories_train](https://user-images.githubusercontent.com/50883840/227072483-857c1aa1-a8f9-4880-8c84-de180cb0168f.jpg)
+![rejected_response_toxic_bias_distribution_subcategories_train](https://user-images.githubusercontent.com/50883840/227072511-36fd3ebb-0f80-46ca-a762-e9467ebaad8e.jpg)
+![chosen_response_toxic_bias_distribution_categories_test](https://user-images.githubusercontent.com/50883840/227072533-52a0d263-4ef7-4605-a5ce-5f989f10bc32.jpg)
+![chosen_response_toxic_bias_distribution_subcategories_test](https://user-images.githubusercontent.com/50883840/227072560-8362dcad-9965-47d0-927a-d20957bd30d7.jpg)
+![rejected_response_toxic_bias_distribution_categories_test](https://user-images.githubusercontent.com/50883840/227072594-fd18733b-1259-496b-9a6c-ff7c075b09bf.jpg)
+![rejected_response_toxic_bias_distribution_subcategories_test](https://user-images.githubusercontent.com/50883840/227072609-7520d6d7-090c-46d2-ad46-e728022b41a3.jpg)
 
-![chosen_response_toxic_bias_distribution_categories_test](https://user-images.githubusercontent.com/50883840/226870772-c006f5a3-8579-4e95-b947-a91ffcaae558.jpg)
-![chosen_response_toxic_bias_distribution_subcategories_test](https://user-images.githubusercontent.com/50883840/226870811-17bb58e7-055d-4eb5-a7eb-3ee773fdc63f.jpg)
-![rejected_response_toxic_bias_distribution_categories_test](https://user-images.githubusercontent.com/50883840/226870870-98298ee5-fcc8-419d-a4c0-1d15b9758e4c.jpg)
-![rejected_response_toxic_bias_distribution_subcategories_test](https://user-images.githubusercontent.com/50883840/226870918-a0f9a4a6-fb8f-4d5c-aea1-7a022cfe2ef9.jpg)
+
+
 
 
