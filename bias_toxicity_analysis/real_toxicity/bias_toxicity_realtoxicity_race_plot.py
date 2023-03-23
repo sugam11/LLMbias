@@ -186,7 +186,7 @@ y, x, total_percentages = zip(*sorted(zip(y, x, total_percentages), reverse = Tr
 
 fig, ax = plt.subplots(figsize=(10,5))
 plt.xticks(rotation=90)
-plt.title("real_toxcity_prompts Toxic Bias Distribution")
+plt.title("real_toxicity_prompts Toxic Bias Distribution")
 ax.barh(x, y, height = 0.8, color='mediumseagreen')
 plt.ylabel('Race')
 plt.xlabel('% Toxic of Race Category')
