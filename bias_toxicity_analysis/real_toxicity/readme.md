@@ -24,6 +24,6 @@ Execute python files in following order:
 ![image](https://user-images.githubusercontent.com/50883840/226848483-fefa51cf-7032-48ef-9bfe-5da3f080452d.png)
 
 ### All Categories and Subcategories plots
-![real_toxic_bias_distribution_categories](https://user-images.githubusercontent.com/50883840/227074530-8a24cff8-e032-486b-9a0b-e74cb2b543c3.jpg)
-![real_toxic_bias_distribution_subcategories](https://user-images.githubusercontent.com/50883840/227074542-8af58724-00bf-4dde-a02d-c166fc2cea4c.jpg)
+![real_toxic_bias_distribution_categories](https://user-images.githubusercontent.com/50883840/227076310-2526c883-d492-4af3-9873-b8c704ed78e6.jpg)
+![real_toxic_bias_distribution_subcategories](https://user-images.githubusercontent.com/50883840/227076349-a6241a98-614a-4a72-b775-8d8e26297d7a.jpg)
 
