@@ -3,7 +3,7 @@
 """
 Created on Wed Mar  8 10:42:18 2023
 
-@author: ninaadj
+@author: DJoshi
 """
 import matplotlib.pyplot as plt
 import pandas as  pd
@@ -187,14 +187,17 @@ y, x, total_percentages = zip(*sorted(zip(y, x, total_percentages), reverse = Tr
 
 fig, ax = plt.subplots(figsize=(10,15))
 plt.xticks(rotation=90)
-plt.title("real_toxcity_prompts Toxic Bias Distribution - Categories")
+plt.title("real_toxicity_prompts Toxic Bias Distribution - Categories")
 ax.barh(x, y, height = 0.8, color='mediumseagreen')
-plt.ylabel('Race')
-plt.xlabel('% Toxic of Race Category')
+plt.ylabel('Category')
+plt.xlabel('% Toxic of Category')
 
 for i, v in enumerate(total_percentages):
     #x = v + 50 if i != 0 else v - 350
-    ax.text(2 , i, f'{v:0.2f}% toxic of total', fontsize=10, ha='left', va='center',color='black')
+    if PERCENT_OF_TOXIC == True:
+        ax.text(2 , i, f'{v:0.3f}% toxic of total', fontsize=10, ha='left', va='center',color='black')
+    else:
+        ax.text(2 , i, f'{v:0.3f}% of total', fontsize=10, ha='left', va='center',color='black')
 
 
 plt.savefig("real_toxic_bias_distribution_categories.jpg", bbox_inches = 'tight')
@@ -204,7 +207,7 @@ plt.close()
 
 df1 = df[df['category'] != 'None']
 all_counts = df1.category.explode().fillna('None').value_counts()
-df = df1[df1['cont_toxic'] == True]
+df1 = df1[df1['cont_toxic'] == True]
 counts = df1.category.explode().fillna('None').value_counts()
 
 values = {}
@@ -229,14 +232,16 @@ y, x, total_percentages = zip(*sorted(zip(y, x, total_percentages), reverse = Tr
 
 fig, ax = plt.subplots(figsize=(10,20))
 plt.xticks(rotation=90)
-plt.title("real_toxcity_prompts Toxic Bias Distribution - Subcategories")
+plt.title("real_toxicity_prompts Toxic Bias Distribution - Subcategories")
 ax.barh(x, y, height = 0.8, color='mediumseagreen')
-plt.ylabel('Race')
-plt.xlabel('% Toxic of Race Category')
+plt.ylabel('Subcategory')
+plt.xlabel('% Toxic of Sub-Category')
 
 for i, v in enumerate(total_percentages):
-    #x = v + 50 if i != 0 else v - 350
-    ax.text(2 , i, f'{v:0.2f}% toxic of total', fontsize=14, ha='left', va='center',color='black')
+    if PERCENT_OF_TOXIC == True:
+        ax.text(2 , i, f'{v:0.3f}% toxic of total', fontsize=10, ha='left', va='center',color='black')
+    else:
+        ax.text(2 , i, f'{v:0.3f}% of total', fontsize=14, ha='left', va='center',color='black')
 
 
 plt.savefig("real_toxic_bias_distribution_subcategories.jpg", bbox_inches = 'tight')
