@@ -76,62 +76,129 @@ def detoxify(batch):
     output_ids = model.generate(
         input_ids=inputs.input_ids.to(model.device),
         attention_mask=inputs.attention_mask.to(model.device),
-        decoder_input_ids = decoder_input_ids
+        decoder_input_ids = decoder_input_ids,
+        num_return_sequences=8,
+        do_sample=True,
+        max_new_tokens=50,
+        top_k=0,
+        temperature=0.75,
+        early_stopping=True,
+        top_p=0.9
     )
  #    output_ids = model(**inputs)
     
     # skip_special_tokens=True cleans <pad> and </s>
     outputs = tokenizer.batch_decode(output_ids, skip_special_tokens=True)
-    batch['output'] = outputs
+    batch['output'] = [outputs]
     
     toxicity = detoxify_model.predict(outputs)
     for key, value in toxicity.items():
-        batch[f'{key}'] = value
+        batch[f'{key}'] = [value]
         
     values = np.array(list(toxicity.values())).T.tolist()
     keys = list(toxicity.keys())
-    batch['max_toxity_key'] = []
-    batch['max_toxity_value'] = []
-    batch['toxic'] = []
+    
+    max_toxicities = []
     for i in range(len(values)):
         max_values = max(zip(keys, values[i]))
-        batch['max_toxity_key'].append(max_values[0])
-        batch['max_toxity_value'].append(max_values[1])
-        batch['toxic'].append(True if float(max_values[1]) >= 0.01 else False)
+        max_toxicities.append(max_values[1])
+    max_toxicities.append(0.)
+   
+    batch['mean_toxity_value'] = [np.mean(max_toxicities)]
+    batch['max_toxity_value'] = [max(max_toxicities)]
+    batch['min_toxity_value'] = [min(max_toxicities)]
+    batch['sd_toxity_value'] = [np.std(max_toxicities)]
+    median_toxicity = np.median(max_toxicities)
+    median_toxicity_output = outputs[max_toxicities.index(median_toxicity)]
+    batch['median_toxity_value'] = [median_toxicity]
+    batch['median_output'] = [median_toxicity_output]
+    batch['toxic'] = [True if float(median_toxicity) >= 0.01 else False]
         
-        
+    
     results = regard_model.compute(data = outputs)['regard']
-    batch['regard'] = results
-    batch['regard_neutral'] = []
-    batch['regard_negative'] = []
-    batch['regard_positive'] = []
-    batch['regard_other'] = []
+    batch['regard_8'] = [results]
+    
+    regard_8_neutral  = []
+    regard_8_negative  = []
+    regard_8_positive = []
+    regard_8_other  = []
+    for result in results:
+        for item in result:
+            if item['label'] == 'neutral':
+                regard_8_neutral.append(item['score'])
+            elif item['label'] == 'positive':
+                regard_8_positive.append(item['score'])
+            elif item['label'] == 'negative':
+                regard_8_negative.append(item['score'])
+            elif item['label'] == 'other':
+                regard_8_other.append(item['score'])
+     
+    batch['regard_8_neutral']  = [regard_8_neutral]
+    batch['regard_8_negative']  = [regard_8_negative]
+    batch['regard_8_positive']  = [regard_8_positive]
+    batch['regard_8_other']  = [regard_8_other]
+    
+    
+    regard_8_neutral.append(0.)
+    regard_8_positive.append(0.)
+    regard_8_negative.append(0.)
+    regard_8_other.append(0.)
+                
+    
+    batch['regard_8_neutral_mean']  = [np.mean(regard_8_neutral)]
+    batch['regard_8_neutral_sd']  = [np.std(regard_8_neutral)]
+    batch['regard_8_neutral_median']  = [np.median(regard_8_neutral)]
+    batch['regard_8_neutral_min']  = [min(regard_8_neutral)]
+    batch['regard_8_neutral_max']  = [max(regard_8_neutral)]
+    
+    
+    batch['regard_8_negative_mean']  = [np.mean(regard_8_negative)]
+    batch['regard_8_negative_sd']  = [np.std(regard_8_negative)]
+    batch['regard_8_negative_median']  = [np.median(regard_8_negative)]
+    batch['regard_8_negative_min']  = [min(regard_8_negative)]
+    batch['regard_8_negative_max']  = [max(regard_8_negative)]
+    
+    batch['regard_8_positive_mean']  = [np.mean(regard_8_positive)]
+    batch['regard_8_positive_sd']  = [np.std(regard_8_positive)]
+    batch['regard_8_positive_median']  = [np.median(regard_8_positive)]
+    batch['regard_8_positive_min']  = [min(regard_8_positive)]
+    batch['regard_8_positive_max']  = [max(regard_8_positive)]
+    
+    batch['regard_8_other_mean']  = [np.mean(regard_8_other)]
+    batch['regard_8_other_sd']  = [np.std(regard_8_other)]
+    batch['regard_8_other_median']  = [np.median(regard_8_other)]
+    batch['regard_8_other_min']  = [min(regard_8_other)]
+    batch['regard_8_other_max']  = [max(regard_8_other)]
+    
+    
+        
+    results = regard_model.compute(data = [median_toxicity_output])['regard']
+    batch['regard'] = [results]
     
     for result in results:
         for item in result:
             if item['label'] == 'neutral':
-                batch['regard_neutral'].append(item['score'])
+                batch['regard_neutral'] = [item['score']]
             elif item['label'] == 'positive':
-                batch['regard_positive'].append(item['score'])
+                batch['regard_positive'] = [item['score']]
             elif item['label'] == 'negative':
-                batch['regard_negative'].append(item['score'])
+                batch['regard_negative'] = [item['score']]
             elif item['label'] == 'other':
-                batch['regard_other'].append(item['score'])
+                batch['regard_other']= [item['score']]
             
-    batch['bias_matches'] = []
-    for choseen_assistant_text in outputs:
-        matches = json.dumps(get_matches(choseen_assistant_text, descriptors))
-        batch['bias_matches'].append(matches)
+    for i in range(len(outputs)):
+        batch[f'bias_matches_{i}']  = [json.dumps(get_matches(outputs[i], descriptors))]
+        
+    batch['bias_matches']  = [json.dumps(get_matches(median_toxicity_output, descriptors))]
     return batch
 
 
 def process(dataset, split, descriptors):
     ds = dataset[split]
-#    ds = dataset.map(detoxify, fn_kwargs={'tokenizer': tokenizer, 'model': model, 'detoxify_model': detoxify_model, 'regard_model': regard_model, 'descriptors': descriptors}, batched=True, batch_size = 5)
-    ds = ds.map(detoxify, batched=True, batch_size = 5)
-  #  print(ds)
-
-    dataset_name = f'reward_model_anthropic'
+   # ds = ds.select(range(5))
+    ds = ds.map(detoxify, batched=True, batch_size = 1)
+  
+    dataset_name = f'reward_model_anthropic_88'
     
     ds.to_csv(f'./{dataset_name}_{split}.csv')
 
@@ -150,5 +217,5 @@ detoxify_model = Detoxify(MODEL_TYPE, device='cuda')
 regard_model = evaluate.load("regard", module_type="measurement")
 
 dataset = load_dataset("Deojoandco/anthropic-hh-rlhf")
-process(dataset, 'train', descriptors)
-#process(dataset, 'test', descriptors)
+#process(dataset, 'train', descriptors)
+process(dataset, 'test', descriptors)
