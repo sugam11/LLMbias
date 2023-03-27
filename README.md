@@ -10,6 +10,6 @@ What the notebooks contain and mean:
 
 3. OpenAI Bias Eval.ipynb - Notebook for evaluating bias in open AI models
 
-For bias and Toxicity please refer to the README inside the bias and Toxicity folder. 
+For bias and Toxicity please refer to the README inside the bias_toxicity_analysis folder. 
 
-For RLHF interviews, please refer to the README TRLX folder
+For RLHF interviews, please refer to the README in the trlx folder
