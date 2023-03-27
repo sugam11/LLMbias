@@ -12,4 +12,4 @@ What the notebooks contain and mean:
 
 For dataset bias and Toxicity on Anthropic and REALTOXICITYPROMPTS, please refer to the README inside the bias_toxicity_analysis folder. 
 
-For RLHF PPO model, please refer to the README in the trlx folder
+For the final RLHF PPO trained model with a reward model, please refer to the README in the trlx folder.
