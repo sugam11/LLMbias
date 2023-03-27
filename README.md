@@ -10,6 +10,6 @@ What the notebooks contain and mean:
 
 3. OpenAI Bias Eval.ipynb - Notebook for evaluating bias in open AI models
 
-For dataset bias and Toxicity on Anthropic and REALTOXICITYPROMPTS, please refer to the README inside the bias_toxicity_analysis folder. 
+For details on running dataset bias and Toxicity on Anthropic and REALTOXICITYPROMPTS, please refer to the README inside the bias_toxicity_analysis folder. 
 
-For the final RLHF PPO trained model with a reward model, please refer to the README in the trlx folder.
+For details on the RLHF PPO trained model with a reward model, please refer to the README in the trlx folder.
